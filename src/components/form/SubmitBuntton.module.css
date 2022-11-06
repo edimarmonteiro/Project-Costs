@@ -1,0 +1,19 @@
+.btn{
+    background-color: #ffbb33;
+    color: black;
+    /*0.7em == Para cima e pra baixo
+    1.2em == Para as laterais*/
+    padding: 1em 2.9em;
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+    border-radius: 5em;
+    margin-left: 7em;
+
+    
+}
+
+.btn:hover{
+    background-color: black;
+    color: #ffbb33;
+}

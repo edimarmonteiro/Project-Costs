@@ -1,0 +1,34 @@
+/*Ira para toda os elementos na <nav>*/
+.navbar{
+    display: flex;
+    /*Dar espaço entre os elementos na orizontal*/
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1em;
+}
+
+/*Mexendo com a UL*/
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.img_log{
+    height: 70px;
+    border-radius: 35px;
+}
+
+.item{
+    /*Separando os item da direita*/
+    margin-right: 2em;
+}
+
+/*Os links*/
+.item a{
+    color: #FFF;
+    text-decoration: none;
+}
+.item a:hover{
+    color: #FFBB33;
+}

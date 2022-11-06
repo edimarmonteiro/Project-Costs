@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  /*Para não utrapaçar a aria maxima da div*/
+  box-sizing: border-box;
+  /*Fonte do google fontes*/
+  font-family:'Open Sans', sans-serif;
+}
+
+html, body, #root{
+  background-color: darkslategray;
+  /*Deixar oucupando todo o espaço da pasta*/
+  height: 100%;
+}

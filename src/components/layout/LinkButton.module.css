@@ -1,0 +1,14 @@
+.btn{
+    background-color: #ffbb33;
+    color: black;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    /*Tempo para ocorre a trasformação do Hover*/
+    transition: 0.5s;
+    font-size: 1.2em;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: black;
+    color: #ffbb33;
+}

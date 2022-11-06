@@ -1,0 +1,29 @@
+.container{
+    /*Tamanho limite para os conteudo central*/
+    width: 1200px;
+    /*Posicionar os elementos de forma facio*/
+    display: flex;
+    /*Passar os elementos na orizontal de forma igual*/
+    justify-content: space-between;
+    margin: 0 auto;
+    /*Qando elementos utrapaçar a width, 
+    vão pra baicho formando uma nova linha*/
+    flex-wrap: wrap;
+}
+
+.min-height{
+    /*Altura minima*/
+    min-height: 75%;
+}
+
+.start{
+    /*Irá colocar os conteudos para o inicio*/
+    justify-content:flex-start;
+}
+
+/*Criar um leault colunar(Tirar do padrão
+linha e colocar em colunas)*/
+.column{
+    flex-direction: column;
+    justify-content: flex-start;
+}
